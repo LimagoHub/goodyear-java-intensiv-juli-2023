@@ -1,0 +1,10 @@
+
+[
+java:S1854"9Remove this useless assignment to local variable "stall".(ÈöĞ€ûÿÿÿÿ8éáû¸˜1
+L
+java:S1197"*Move the array designators [] to the type.(ÈöĞ€ûÿÿÿÿ8éáû¸˜1
+X	java:S125"<This block of commented-out lines of code should be removed.(ÏÊíê8êáû¸˜1
+X	java:S125"<This block of commented-out lines of code should be removed.(ëë†Ì8êáû¸˜1
+X	java:S125"<This block of commented-out lines of code should be removed.(­Í†¥8êáû¸˜1
+L
+java:S1481"*Remove this unused "stall" local variable.(ÈöĞ€ûÿÿÿÿ8êáû¸˜1
