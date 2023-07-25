@@ -1,0 +1,8 @@
+
+~
+java:S4276"\Refactor this code to use the more specialised Functional Interface 'BinaryOperator<Double>'(ðÜ”ƒýÿÿÿÿ8¾„áæ˜1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(…„½àýÿÿÿÿ8¿„áæ˜1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(…„½àýÿÿÿÿ8¿„áæ˜1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(…„½àýÿÿÿÿ8ÙÞâæ˜1
+Z
+java:S1128"8Remove this unused import 'java.util.function.Consumer'.(Ì†ƒÔùÿÿÿÿ8À„áæ˜1

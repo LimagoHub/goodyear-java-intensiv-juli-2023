@@ -1,12 +1,23 @@
 package de.goodyear.collections;
 
 
+import java.io.Serializable;
+
 /**
  * Eine tolle Klasse
  */
-public class Stapel {
+public class Stapel<HERBERT> {
 
+    private static final int DEFAULT_SIZE = 10;
+
+    private HERBERT [] data;
+    private int index;
     public Stapel() {
+        this(DEFAULT_SIZE);
+    }
+    public Stapel(int size) {
+        data = (HERBERT[]) new Object[size<0?DEFAULT_SIZE:size];
+        index = 0;
     }
 
 
@@ -14,23 +25,25 @@ public class Stapel {
      *
      * @param value
      */
-    public void push(int value) { // Verhalten im Fehlerfall
-
+    public void push(HERBERT value) { // Verhalten im Fehlerfall
+        if(isFull()) return;
+        data[index ++] = value;
     }
 
     /**
      *
      * @return
      */
-    public int pop() {
-        return 0;
+    public HERBERT pop() {
+        if(isEmpty()) return null;
+        return data[--index];
     }
 
     public boolean isFull() {
-        return true;
+        return index >= data.length;
     }
 
     public boolean isEmpty() {
-        return true;
+        return index <= 0;
     }
 }

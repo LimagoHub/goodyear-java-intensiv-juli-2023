@@ -1,0 +1,12 @@
+
+a
+java:S41435"DVerify this is the key that was intended; it was already set before.(ŸÃ –8á÷µâ˜1
+X	java:S125"<This block of commented-out lines of code should be removed.(†Ÿøð8â÷µâ˜1
+Z	java:S1069"9Replace this use of System.out or System.err by a logger.(©÷¿§øÿÿÿÿ8ã÷µâ˜1
+U	java:S106@"9Replace this use of System.out or System.err by a logger.(–öŸ›8ä÷µâ˜1
+U	java:S106K"9Replace this use of System.out or System.err by a logger.(Ú“ÜÝ8å÷µâ˜1
+Z	java:S106P"9Replace this use of System.out or System.err by a logger.(ì›ý£øÿÿÿÿ8å÷µâ˜1
+d
+java:S2094W"BRemove this empty class, write its code or make it an "interface".(¢ˆšŠýÿÿÿÿ8æ÷µâ˜1
+J
+java:S1128"-Remove this unused import 'de.tiere.Schwein'.(ÝèÝ¯8æ÷µâ˜1

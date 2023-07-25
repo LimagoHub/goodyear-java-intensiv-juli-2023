@@ -37,8 +37,12 @@ public class Schwein {
 
     // Instanzkonstruktor
     public Schwein() {
-        name = "Nobody";
-        gewicht = 10;
+        this("Nobody");
+    }
+
+    public Schwein(String name) {
+        setName(name);
+        setGewicht(10);
         erhoeheAnzahl();
         DefaultCleaner.INSTANCE.register(this, ()->Schwein.vermindereAnzahl());
     }
@@ -49,7 +53,7 @@ public class Schwein {
         return name;
     }
 
-    public void setName(final String name) {
+    public final void setName(final String name) {
         if("Elsa".equals(name)) throw new IllegalArgumentException("Schwein darf nicht Elsa heissen");
 
         this.name = name;

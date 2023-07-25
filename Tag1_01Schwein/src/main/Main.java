@@ -15,7 +15,7 @@ public class Main {
         Schwein piggy;
 
 
-        piggy = new Schwein(); // Zur Laufzeit
+        piggy = new Schwein("Miss Piggy"); // Zur Laufzeit
         System.out.println(Schwein.getAnzahl());
 
         System.out.println(piggy);

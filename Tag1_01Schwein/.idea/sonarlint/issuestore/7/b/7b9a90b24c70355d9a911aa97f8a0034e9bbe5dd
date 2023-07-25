@@ -3,4 +3,4 @@
 java:S1171""YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8˜  ¸˜1
 Z	java:S106#"9Replace this use of System.out or System.err by a logger.(ŠÜñ€şÿÿÿÿ8˜  ¸˜1
 c
-java:S1612+"FReplace this lambda with method reference 'Schwein::vermindereAnzahl'.(û®·‘8›  ¸˜1
+java:S1612/"FReplace this lambda with method reference 'Schwein::vermindereAnzahl'.(û®·‘8İİ½˜1
