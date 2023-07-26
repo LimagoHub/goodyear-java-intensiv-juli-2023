@@ -2,6 +2,7 @@ package de.goodyear.collections;
 
 
 import java.io.Serializable;
+import java.util.Stack;
 
 /**
  * Eine tolle Klasse
@@ -12,12 +13,16 @@ public class Stapel<HERBERT> {
 
     private HERBERT [] data;
     private int index;
-    public Stapel() {
+    public Stapel() throws StapelException  {
         this(DEFAULT_SIZE);
     }
-    public Stapel(int size) {
-        data = (HERBERT[]) new Object[size<0?DEFAULT_SIZE:size];
-        index = 0;
+    public Stapel(int size) throws StapelException {
+       try {
+            data = (HERBERT[]) new Object[size];
+            index = 0;
+        } catch (RuntimeException e) {
+            throw new StapelException("Upps",e);
+        }
     }
 
 
@@ -25,8 +30,8 @@ public class Stapel<HERBERT> {
      *
      * @param value
      */
-    public void push(HERBERT value) { // Verhalten im Fehlerfall
-        if(isFull()) return;
+    public void push(HERBERT value) throws StapelException { // Verhalten im Fehlerfall
+        if(isFull()) throw new StapelException("Overflow");
         data[index ++] = value;
     }
 
@@ -34,8 +39,8 @@ public class Stapel<HERBERT> {
      *
      * @return
      */
-    public HERBERT pop() {
-        if(isEmpty()) return null;
+    public HERBERT pop() throws StapelException {
+        if(isEmpty()) throw new StapelException("Underflow");
         return data[--index];
     }
 
