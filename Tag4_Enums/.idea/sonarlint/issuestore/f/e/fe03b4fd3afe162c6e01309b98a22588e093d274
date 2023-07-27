@@ -1,0 +1,13 @@
+
+[
+java:S1854"9Remove this useless assignment to local variable "monat".(ğÀšÑüÿÿÿÿ8¥‚ì¸™1
+T
+java:S1854"7Remove this useless assignment to local variable "feb".(ÉßÏ‡8¦‚ì¸™1
+L
+java:S1481"*Remove this unused "monat" local variable.(ğÀšÑüÿÿÿÿ8¦‚ì¸™1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ñƒœ£8§‚ì¸™1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¤Õ8§‚ì¸™1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(òìÓĞ8¨‚ì¸™1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‘Ñêœ8©‚ì¸™1
+H
+java:S1481"&Remove this unused "a" local variable.(–ÎåÌûÿÿÿÿ8©‚ì¸™1

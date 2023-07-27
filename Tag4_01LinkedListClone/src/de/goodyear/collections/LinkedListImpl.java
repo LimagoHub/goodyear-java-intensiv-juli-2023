@@ -32,32 +32,32 @@ public class LinkedListImpl<T> implements List<T>{
 
     @Override
     public Optional<T> get() {
-        return Optional.empty();
+        if(isEmpty()) return Optional.empty();
+        return Optional.of(actual.payload);
     }
 
     @Override
     public boolean update(final T newValue) {
-        return false;
+
+        if(isEmpty()) return false;
+        actual.payload = newValue;
+        return true;
     }
 
-    @Override
-    public boolean moveToHead() {
-        return false;
-    }
 
-    @Override
-    public boolean moveToTail() {
-        return false;
-    }
 
     @Override
     public boolean movePrevious() {
-        return false;
+        if(isBeginOfList()) return false;
+        actual = actual.vor;
+        return true;
     }
 
     @Override
     public boolean moveNext() {
-        return false;
+        if(isEndOfList()) return false;
+        actual = actual.nach;
+        return true;
     }
 
     @Override

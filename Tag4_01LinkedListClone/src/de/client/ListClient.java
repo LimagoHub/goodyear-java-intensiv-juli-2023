@@ -39,7 +39,7 @@ public class ListClient {
                 case Get -> System.out.println(liste.get());
                 case Update-> liste.update(createSchwein());
                 case Remove-> liste.remove();
-                case MoveFirst->liste.moveToTail();
+                case MoveFirst->liste.moveToHead();
                 case MoveLast->liste.moveToTail();
                 case MovePrevious->liste.movePrevious();
                 case MoveNext->liste.moveNext();

@@ -1,0 +1,22 @@
+
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æô×28†²¶´™1
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æô×28‡²¶´™1
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æô×28‡²¶´™1
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æô×28‡²¶´™1
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æô×28‡²¶´™1
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æô×28‡²¶´™1
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æô×28‡²¶´™1
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æô×28‡²¶´™1
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æô×28‡²¶´™1
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æô×28‡²¶´™1
+8
+java:S1116"Remove this empty statement.(æô×28ˆ²¶´™1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÿäµıÿÿÿÿ8²¶´™1
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(Ñ™›¤ıÿÿÿÿ8²¶´™1
+U	java:S106."9Replace this use of System.out or System.err by a logger.(ª»‡¸8²¶´™1
+G
+java:S1181@"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ8íÁ»´™1
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(öäÒŠúÿÿÿÿ8èœ·´™1
+Z	java:S106A"9Replace this use of System.out or System.err by a logger.(Ûû©ßùÿÿÿÿ8²¶´™1
+P
+java:S1128	".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8îÁ»´™1

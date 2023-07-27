@@ -9,8 +9,21 @@ public interface List<T> {
     Optional<T> get();
     boolean update(T newValue);
 
-    boolean moveToHead();
-    boolean moveToTail();
+    default void clear() {
+        while (remove());
+    }
+
+    default boolean moveToHead() {
+        if (isEmpty()) return false;
+        while (movePrevious());
+        return true;
+    }
+
+    default boolean moveToTail() {
+        if (isEmpty()) return false;
+        while(moveNext());
+        return true;
+    }
 
     boolean movePrevious();
 
