@@ -1,11 +1,0 @@
-
-g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(å¯°õøÿÿÿÿ8¤âÆÀ˜1
-[
-java:S1854"9Remove this useless assignment to local variable "piggy".(ƒý½‚úÿÿÿÿ8¥¼ª¸˜1
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(°ƒ‚´ÿÿÿÿÿ8¥¼ª¸˜1
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(°ƒ‚´ÿÿÿÿÿ8¦¼ª¸˜1
-U	java:S106"9Replace this use of System.out or System.err by a logger.(­¢‘í8§¼ª¸˜1
-U	java:S106"9Replace this use of System.out or System.err by a logger.(­¢‘í8§¼ª¸˜1
-q
-java:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8¨¼ª¸˜1
-Z	java:S106!"9Replace this use of System.out or System.err by a logger.(°ƒ‚´ÿÿÿÿÿ8¨¼ª¸˜1
